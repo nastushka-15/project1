@@ -2,8 +2,18 @@
     font-family: "Roboto";
     font-weight: 400;
     src: url(../fonts/RobotoMono-Regular.ttf);
+    
+    src: url(../fonts/RobotoMono-SemiBold.ttf);
 
 }
+
+@font-face {
+    font-family: "RobotoLight";
+    font-weight: 300;
+    src: url(../fonts/RobotoMono-Light.ttf);
+}
+
+
 
 
 .header{
@@ -12,7 +22,7 @@
     grid-template-rows: repeat (3, 1fr);
     justify-items: center;
     align-items: center;
-    font-family: "Roboto", sans-serif;
+    font-family: "RobotoLight", sans-serif;
 font-style: normal;
 font-weight: 400;
 font-size: 12px;
@@ -49,3 +59,37 @@ color: #333333;
 .header__zero {
     grid-column: 14/15;
 }
+
+/* section project lorum start */
+
+.block__title {
+    font-family: "RobotoLight", sans-serif;
+    font-weight: 300;
+    font-size: 64px;
+    text-transform: uppercase;
+    color: #BDBDBD;
+}
+
+.block__titleTwo {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    
+}
+
+.block__img {
+    width: 770px;
+    height: 829px;
+}
+
+.block__button {
+    width: 221px;
+    height: 71px;
+    border: none;
+    background-color: white;
+    font-family: "RobotoLight";
+    font-weight: 300;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+/* section project lorum end */
