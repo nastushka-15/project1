@@ -62,7 +62,7 @@ color: #333333;
 
 /* section project lorum start */
 
-.block__title {
+.caption__title {
     font-family: "RobotoLight", sans-serif;
     font-weight: 300;
     font-size: 64px;
@@ -70,26 +70,52 @@ color: #333333;
     color: #BDBDBD;
 }
 
-.block__titleTwo {
+.caption__titleTwo {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 64px;
+    padding-bottom: 15px;
+    
+    
     
 }
 
-.block__img {
-    width: 770px;
-    height: 829px;
+.image__pic {
+    width: 80%;
+    height: auto;
+    padding-top: 30px;
+    padding-left: 50px;
+
 }
 
-.block__button {
+.image__button {
+    
     width: 221px;
     height: 71px;
     border: none;
     background-color: white;
-    font-family: "RobotoLight";
+    font-family: "Roboto";
     font-weight: 300;
     font-size: 12px;
     text-transform: uppercase;
+    
+}
+
+.image__button-img {
+    
+}
+
+.caption {
+    display: flex;
+    flex-direction: column;
+    padding-top: 338px;
+    padding-left: 100px;
+    
+}
+
+.section {
+    display: flex;
+    justify-content: flex-end;
+
 }
 /* section project lorum end */
