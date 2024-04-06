@@ -38,7 +38,6 @@
 .header__main{
     grid-column: 4/5;
     grid-row: 2;
-    text-decoration: underline;
 }
 
 .header__gallery {
@@ -65,6 +64,10 @@
     text-decoration: none;
     color:  #333333;
 }
+
+.header__link:hover {
+    text-decoration: underline overline;
+} 
 
 .header__link :visited {
 color:  #333333;
