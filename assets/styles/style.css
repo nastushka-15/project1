@@ -16,20 +16,20 @@
 
 
 
-.header{
+.header {
     display: grid;
     grid-template-columns: repeat (19, 1fr);
     grid-template-rows: repeat (3, 1fr);
     justify-items: center;
     align-items: center;
     font-family: "RobotoLight", sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 12px;
-line-height: 12px;
-letter-spacing: 0.2em;
-text-transform: uppercase;
-color: #333333;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #333333;
 }
 .header__logo {
     grid-column: 2/3;
@@ -119,3 +119,37 @@ color: #333333;
 
 }
 /* section project lorum end */
+
+/* footer start */
+.footer {
+    background-color: #2C2C2C;
+    padding: 2%;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) 2fr;
+    justify-items: center;
+    color: white;
+    font-family: var;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 171%;
+    letter-spacing: 0.03em;
+}
+
+.footer-info__title, .footer-contacts__title, .footer-social__title {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.footer__column {
+    list-style-type: none;
+}
+
+.footer__author {
+    display: flex;
+    justify-content: center ;
+    color:rgb(200, 200, 200, 0.5);
+}
+/* footer end */
