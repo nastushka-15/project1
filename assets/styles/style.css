@@ -58,6 +58,13 @@
     grid-column: 8/9;
     grid-row: 2;
 }
+.header__link {
+    text-decoration: none;
+    color:  #333333;
+}
+.header__link :visited {
+color:  #333333;
+}
 
 
 /* section project lorum start */
