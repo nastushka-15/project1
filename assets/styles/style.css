@@ -17,8 +17,10 @@
 
 
 .header {
+    margin-left: 8%;
+    margin-right: 10%;
     display: grid;
-    grid-template-columns: repeat (19, 1fr);
+    grid-template-columns: repeat (8, 1fr);
     grid-template-rows: repeat (3, 1fr);
     justify-items: center;
     align-items: center;
@@ -32,33 +34,31 @@
     color: #333333;
 }
 .header__logo {
-    grid-column: 2/3;
+    grid-column: 1/2;
     grid-row: 2;
 }
 .header__main{
-    grid-column: 7/8;
+    grid-column: 4/5;
     grid-row: 2;
     text-decoration: underline;
 }
 .header__gallery {
-    grid-column: 8/9;
+    grid-column: 5/6;
     grid-row: 2;
 }
 .header__projects {
-    grid-column: 9/10;
+    grid-column: 6/7;
     grid-row: 2;
 }
 .header__certifications {
-    grid-column: 10/11;
+    grid-column: 7/8;
     grid-row: 2;
 }
 .header__contacts {
-    grid-column: 11/12;
+    grid-column: 8/9;
     grid-row: 2;
 }
-.header__zero {
-    grid-column: 14/15;
-}
+
 
 /* section project lorum start */
 
