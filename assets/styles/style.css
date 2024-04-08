@@ -43,7 +43,6 @@
 .header__main{
     grid-column: 4/5;
     grid-row: 2;
-    text-decoration: underline;
 }
 .header__gallery {
     grid-column: 5/6;
@@ -60,6 +59,17 @@
 .header__contacts {
     grid-column: 8/9;
     grid-row: 2;
+}
+.header__link {
+    text-decoration: none;
+    color:  #333333;
+}
+.header__link :visited {
+color:  #333333;
+}
+
+.header__link:hover {
+    text-decoration: underline overline;
 }
 
 
