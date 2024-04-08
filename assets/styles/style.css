@@ -148,28 +148,20 @@ color:  #333333;
 
 
 /* section about start */
-
-
 .section-about {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #FBFBFB;
     max-width: 70%;
+    padding-bottom: 120px;
     
     
 }
-
-
 
 .section-about__photo-img {
     margin: 30px;
 }
-
-/* .section-about__articles{
-    justify-content: space-between;
-
-} */
 
 .section-about__articles-title {
     font-family: "RobotoLight", sans-serif;
@@ -209,7 +201,7 @@ color:  #333333;
     grid-template-columns: repeat(3, 1fr) 2fr;
     justify-items: center;
     color: white;
-    font-family: var;
+    font-family: "RobotoRegular", sans-serif;
     font-weight: 500;
     font-size: 14px;
     line-height: 171%;
