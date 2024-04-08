@@ -103,8 +103,8 @@ color:  #333333;
 
 .image__button {
     
-    width: 221px;
-    height: 71px;
+    width: 200px;
+    height: 60px;
     border: none;
     background-color: white;
     font-family: "Roboto";
@@ -112,8 +112,8 @@ color:  #333333;
     font-size: 12px;
     text-transform: uppercase;
     position: absolute;
-    top: 41.3rem;
-    left: 10rem;
+    top: 41.5rem;
+    left: 9rem;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     background-color: white;
@@ -134,7 +134,8 @@ color:  #333333;
 .caption {
     display: flex;
     flex-direction: column;
-    padding-top: 300px;
+    padding-top: 200px;
+    margin-left: 135px;
     
     
 }
@@ -148,13 +149,17 @@ color:  #333333;
 
 
 /* section about start */
-.section-about {
+.section-about__content {
     display: flex;
-    justify-content: center;
     align-items: center;
-    background-color: #FBFBFB;
-    max-width: 70%;
-    padding-bottom: 120px;
+    background: #FBFBFB;
+    width: 1120px;
+    height: 410px;
+    padding-left: 100px;
+    padding-top: 50px;
+    margin-left: 200px;
+    margin-top: 120px;
+    
     
     
 }
@@ -168,7 +173,7 @@ color:  #333333;
     font-size: 64px;
     font-weight: 300;
     color: #BDBDBD;
-    text-align: center;
+    
 }
 
 .section-about__articles-text {
@@ -178,8 +183,8 @@ color:  #333333;
 }
 
 .section-about__articles-button {
-    width: 221px;
-    height: 71px;
+    width: 200px;
+    height: 60px;
     border: none;
     background-color: white;
     font-family: "Roboto";
@@ -189,6 +194,43 @@ color:  #333333;
 }
 /* section about end */
 
+/* section main focus start */
+.main-focus__title {
+    font-family: "RobotoLight", sans-serif;
+    font-size: 64px;
+    font-weight: 300;
+    color: #BDBDBD;
+    padding-top: 100px;
+    padding-left: 200px;
+}
+
+.main-focus__content {
+    display: flex;
+    margin: 0 80px;
+    width: 75%;
+    
+}
+
+.main-focus__item-title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 200px;
+    color: #BDBDBD;
+    padding-left: 135px;
+    
+}
+
+.main-focus__item {
+    display: flex;
+}
+
+.main-focus__item-description {
+    font-family: "RobotoRegular", sans-serif;
+    font-size: 20px;
+    padding-top: 50px;
+    padding-left: 30px;
+}
+/* section main focus end */
 
 /* footer start */
 .footer {
