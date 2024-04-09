@@ -1,15 +1,20 @@
 @font-face {
     font-family: "Roboto";
     font-weight: 400;
-    src: url(../fonts/RobotoMono-Regular.ttf);
-    
     src: url(../fonts/RobotoMono-SemiBold.ttf);
+
 }
 
 @font-face {
     font-family: "RobotoLight";
     font-weight: 300;
     src: url(../fonts/RobotoMono-Light.ttf);
+}
+
+@font-face {
+    font-family: "RobotoRegular";
+    font-weight: 300;
+    src: url(../fonts/RobotoMono-Regular.ttf);
 }
 
 .header {
