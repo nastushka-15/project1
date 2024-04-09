@@ -232,6 +232,69 @@ color:  #333333;
 }
 /* section main focus end */
 
+/* /* section our projects start */
+.project__title {
+font-family: "RobotoLight", sans-serif;
+    font-size: 64px;
+    font-weight: 300;
+    color: #BDBDBD;
+    padding-left: 200px;
+    padding-top: 50px;
+
+}
+
+.project__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    
+}
+
+.project__content-group1 {
+    display: flex;
+    gap: 30px;
+}
+
+.project__content-group2 {
+    display: flex;
+    gap: 30px;
+}
+
+.project__content-group1 .project__content-group2{
+display: flex;
+justify-content: space-between;
+
+}
+
+.project__button {
+    width: 200px;
+    height: 60px;
+    border: none;
+    color: white;
+    font-family: "RobotoLight";
+    font-weight: 300;
+    font-size: 12px;
+    text-transform: uppercase;
+    background-color: #2C2C2C;
+    
+}
+
+.project__content-group3 {
+    display: flex;
+    justify-content: right;
+    margin-right: 304px;
+    margin-top: 30px;
+}
+
+/* section our projects  end */
+
+/* section contact us start */
+
+
+
+/* section contact us  end */
+
 /* footer start */
 .footer {
     background-color: #2C2C2C;
