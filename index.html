@@ -12,20 +12,25 @@
 
 <body>
     <!-- <header start> -->
-        <header class="header hamburger-menu">
-            <input id="menu__toggle" type="checkbox"/>
-            <label class="menu__btn" for="menu__toggle">
-                <span></span>
-            </label>
-            <div class="menu">
-                <img src="./assets/images/header_logo.png" alt="logo" class="header__logo menu-item">
-                <div class="header__main menu-item"><a class="header__link" href="./index.html" target="_blank">Main</a></div>
-                <div class="header__gallery menu-item"><a class="header__link" href="./gallery.html" target="_blank">Gallery</a> </div>
-                <div class="header__projects menu-item"><a class="header__link" href="./projects.html" target="_blank">Projects</a></div>
-                <div class="header__certifications menu-item"><a class="header__link" href="./certifications.html" target="_blank">Certifications</a></div>
-                <div class="header__contacts menu-item"><a class="header__link" href="./contact_information.html" target="_blank">Contacts</a></div>
+    <header class="header hamburger-menu">
+        <input id="menu__toggle" type="checkbox" />
+        <label class="menu__btn" for="menu__toggle">
+            <span></span>
+        </label>
+        <div class="menu">
+            <img src="./assets/images/header_logo.png" alt="logo" class="header__logo menu-item">
+            <div class="header__main menu-item"><a class="header__link" href="./index.html" target="_blank">Main</a>
             </div>
-        </header>
+            <div class="header__gallery menu-item"><a class="header__link" href="./gallery.html"
+                    target="_blank">Gallery</a> </div>
+            <div class="header__projects menu-item"><a class="header__link" href="./projects.html"
+                    target="_blank">Projects</a></div>
+            <div class="header__certifications menu-item"><a class="header__link" href="./certifications.html"
+                    target="_blank">Certifications</a></div>
+            <div class="header__contacts menu-item"><a class="header__link" href="./contact_information.html"
+                    target="_blank">Contacts</a></div>
+        </div>
+    </header>
 
     <!-- </header end> -->
 
@@ -134,32 +139,44 @@
 
         <!-- </section our projects  end> -->
         <!-- <section contact us start> -->
-        <section>
-            <h2 class="project__title">Contact Us</h2>
-            <form class="form">
-                <div class="form__section">
-                    <label for="name" class="form__label"></label>
-                    <input type="text" id="name" name="name" placeholder="Name" class="form__input">
+        <section class="contacts">
+            <h2 class="contacts__title">Contact Us</h2>
+
+            <div class="contacts__block">
+
+                <div class="contacts__image">
+                    <img class="contacts__image-img" src="assets/images/image_12.png" alt="man">
                 </div>
-                <div class="form__section">
-                    <label for="phone" class="form__label"></label>
-                    <input type="text" id="phone" name="phone" placeholder="Phone Number" class="form__input">
-                </div>
-                <div class="form__section">
-                    <label for="email" class="form__label"></label>
-                    <input type="email" id="email" name="email" placeholder="E-mail" class="form__input">
-                </div>
-                <div class="form__section">
-                    <label for="interested" class="form__label"></label>
-                    <input type="interested" id="interested" name="interestedin" placeholder="Interested In"
-                        class="form__input">
-                </div>
-                <div class="form__section">
-                    <label for="message" class="form__label"></label>
-                    <textarea id="message" name="message" placeholder="Message" class="form__textarea"></textarea>
-                </div>
-                <button type="submit" class="project__button">Send Email<img class="image__button-img"
-                        src="assets/images/arrowBlack.png" alt="arrow" width="24" height="24"></button>
+
+                <form class="form">
+                    <div class="form__section">
+                        <label for="name" class="form__label"></label>
+                        <input type="text" id="name" name="name" placeholder="Name" class="form__input">
+                    </div>
+                    <div class="form__section">
+                        <label for="phone" class="form__label"></label>
+                        <input type="text" id="phone" name="phone" placeholder="Phone Number" class="form__input">
+                    </div>
+                    <div class="form__section">
+                        <label for="email" class="form__label"></label>
+                        <input type="email" id="email" name="email" placeholder="E-mail" class="form__input">
+                    </div>
+                    <div class="form__section">
+                        <label for="interested" class="form__label"></label>
+                        <input type="interested" id="interested" name="interestedin" placeholder="Interested In"
+                            class="form__input">
+                    </div>
+                    <div class="form__section">
+                        <label for="message" class="form__label"></label>
+                        <textarea id="message" name="message" placeholder="Message" class="form__textarea"></textarea>
+                    </div>
+
+
+
+
+            </div>
+            <button type="submit" class="project__button button__transparent">Send Email<img class="image__button-img"
+                    src="assets/images/arrowBlack.png" alt="arrow" width="24" height="24"></button>
         </section>
 
         <!-- </section contact us  end> -->

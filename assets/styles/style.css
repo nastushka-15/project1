@@ -239,7 +239,7 @@ color:  #333333;
 
 /* /* section our projects start */
 .project__title {
-font-family: "RobotoLight", sans-serif;
+    font-family: "RobotoLight", sans-serif;
     font-size: 64px;
     font-weight: 300;
     color: #BDBDBD;
@@ -295,6 +295,59 @@ justify-content: space-between;
 /* section our projects  end */
 
 /* section contact us start */
+.contacts__title {
+    font-family: "RobotoLight", sans-serif;
+    font-size: 64px;
+    font-weight: 300;
+    color: #BDBDBD;
+    padding-left: 277px;
+    padding-top: 50px;
+
+}
+
+.contacts__image-img {
+    width: 800px;
+    height: 430px;
+}
+
+.contacts__block {
+    display: flex;
+    flex-flow: row-reverse;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+.form__input {
+    width: 391px;
+    height: 46px;
+    margin: 10px;
+    background-color: #f3f3f3;
+    border: none;
+    font-family: "RobotoRegular", sans-serif;
+    font-size: 14px;
+    color: #8D8D8D;
+}
+
+.form__textarea {
+    width: 391px;
+    height: 146px;
+    margin: 10px;
+    background-color: #f3f3f3;
+    border: none;
+    font-family: "RobotoRegular", sans-serif;
+    font-size: 14px;
+    color: #8D8D8D;
+
+}
+
+
+
+.button__transparent {
+    margin-top: 77px;
+    margin-left: 277px;
+    margin-bottom: 107px;
+}
 
 
 
