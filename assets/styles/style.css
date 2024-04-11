@@ -19,7 +19,7 @@
 
 
 
-.header {
+.menu {
     margin-left: 8%;
     margin-right: 10%;
     display: grid;
@@ -36,6 +36,11 @@
     text-transform: uppercase;
     color: #333333;
 }
+
+#menu__toggle {
+    opacity: 0;
+}
+
 .header__logo {
     grid-column: 1/2;
     grid-row: 2;
@@ -328,3 +333,171 @@ justify-content: space-between;
     color:rgb(200, 200, 200, 0.5);
 }
 /* footer end */
+
+/*Адаптивность*/
+@media screen  and (max-width: 426px){
+
+/*Гамбургер меню старт*/
+#menu__toggle {
+    opacity: 0;
+}
+
+#menu__toggle:checked ~ .menu__btn > span {
+    transform: rotate(45deg);
+}
+
+#menu__toggle:checked ~ .menu__btn > span::before {
+    top: 0;
+    transform: rotate(0);
+}
+
+#menu__toggle:checked ~ .menu__btn > span::after {
+    top: 0;
+    transform: rotate(90deg);
+}
+
+#menu__toggle:checked ~ .menu{
+    visibility: visible;
+    left: 0;
+}
+
+.menu__btn {
+    background-color:#2C2C2C;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    transition-duration: .25s;
+}
+
+.menu__btn > span::before {
+    content: '';
+    top: -8px;
+}
+
+.menu__btn > span::after {
+    content: '';
+    top: 8px;
+}
+
+.menu {
+    display: block;
+    position: fixed;
+    visibility: hidden;
+    top: 0;
+    left: -100%;
+    width: 300px;
+    height: 100%;
+    margin: 0;
+    padding: 80px 0;
+    list-style: none;
+    background-color:white;
+    box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+    transition-duration: .25s;
+}
+
+.menu-item {
+    display: block;
+    padding: 12px 24px;
+    text-decoration: none;
+    transition-duration: .25s;
+}
+
+.menu-item:hover {
+    background-color: #CFD8DC;
+}
+/*Гамбургер меню конец*/
+
+/* section project lorum start */
+.section {
+    display: flex;
+    flex-direction: column;
+}
+
+.caption {
+    display: flex;
+    flex-direction: column;
+    padding-top: 5%;
+    padding-left: 20%;
+    margin-left: 0%; 
+}
+
+.caption__title, .caption__titleTwo {
+    font-size: 1.5em;
+}
+
+.image {
+    position: static;
+    width: 100%;
+}
+
+.image__pic {
+    width: 100%;
+    padding-top: 0px;
+    padding-left:0px;
+}
+
+.image__button {
+    top: 25.5rem;
+    left: 6rem;
+}
+/* section project lorum end */
+
+/* section about start */
+.section-about__content {
+    flex-direction:column-reverse;
+    width:100%;
+    height: 40%;
+    padding-left: 1%;
+    padding-top: 1%;
+    margin-left: 0;
+    margin-top: 1%;  
+}
+
+.section-about__photo-img {
+    margin: 1%;
+    width: 100%;
+}
+
+.section-about__articles-title {
+    font-size: 1.5rem;
+    padding-left: 10%;
+}
+/* section about end */
+
+
+
+.footer-info {
+    display: none;
+}
+
+.footer__logo {
+    display: none;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    font-size: 0.5em;
+    text-align:justify;
+}
+.footer {
+    box-sizing: border-box;
+    width: 100%;
+}
+}
