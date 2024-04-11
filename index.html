@@ -132,9 +132,30 @@
         <!-- <section contact us start> -->
         <section>
             <h2 class="project__title">Contact Us</h2>
-
-            <button class="project__button">Send Email<img class="image__button-img" src="assets/images/arrowBlack.png"
-                    alt="arrow" width="24" height="24"></button>
+            <form class="form">
+                <div class="form__section">
+                    <label for="name" class="form__label"></label>
+                    <input type="text" id="name" name="name" placeholder="Name" class="form__input">
+                </div>
+                <div class="form__section">
+                    <label for="phone" class="form__label"></label>
+                    <input type="text" id="phone" name="phone" placeholder="Phone Number" class="form__input">
+                </div>
+                <div class="form__section">
+                    <label for="email" class="form__label"></label>
+                    <input type="email" id="email" name="email" placeholder="E-mail" class="form__input">
+                </div>
+                <div class="form__section">
+                    <label for="interested" class="form__label"></label>
+                    <input type="interested" id="interested" name="interestedin" placeholder="Interested In"
+                        class="form__input">
+                </div>
+                <div class="form__section">
+                    <label for="message" class="form__label"></label>
+                    <textarea id="message" name="message" placeholder="Message" class="form__textarea"></textarea>
+                </div>
+                <button type="submit" class="project__button">Send Email<img class="image__button-img"
+                        src="assets/images/arrowBlack.png" alt="arrow" width="24" height="24"></button>
         </section>
 
         <!-- </section contact us  end> -->
