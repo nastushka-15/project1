@@ -327,6 +327,8 @@ justify-content: space-between;
     font-family: "RobotoRegular", sans-serif;
     font-size: 14px;
     color: #8D8D8D;
+    box-sizing: border-box; /** позволит добавить padding */
+    padding: 1rem;
 }
 
 .form__textarea {
@@ -338,8 +340,12 @@ justify-content: space-between;
     font-family: "RobotoRegular", sans-serif;
     font-size: 14px;
     color: #8D8D8D;
+    box-sizing: border-box; /** позволит добавить padding */
+    padding: 1rem;
+    
 
 }
+
 
 
 
