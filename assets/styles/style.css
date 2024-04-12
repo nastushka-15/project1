@@ -914,64 +914,29 @@ justify-content: space-between;
 
 /* section contact us start */
 .contacts__title {
-    font-family: "RobotoLight", sans-serif;
-    font-size: 64px;
-    font-weight: 300;
-    color: #BDBDBD;
-    padding-left: 277px;
-    padding-top: 50px;
-
+    font-size:1.5rem;
+    padding-left: 10%;
+    padding-top: 1%;
 }
 
 .contacts__image-img {
-    width: 800px;
-    height: 420px;
+    display: none;
 }
-
-.contacts__block {
-    display: flex;
-    flex-flow: row-reverse;
-    justify-content: center;
-    gap: 30px;
-}
-
 
 .form__input {
-    width: 391px;
-    height: 46px;
-    margin: 10px;
-    background-color: #f3f3f3;
-    border: none;
-    font-family: "RobotoRegular", sans-serif;
-    font-size: 14px;
-    color: #8D8D8D;
-    box-sizing: border-box; /** позволит добавить padding */
-    padding: 1rem;
+    width: 80%;
 }
 
 .form__textarea {
-    width: 391px;
-    height: 146px;
-    margin: 10px;
-    background-color: #f3f3f3;
-    border: none;
-    font-family: "RobotoRegular", sans-serif;
-    font-size: 14px;
-    color: #8D8D8D;
-    box-sizing: border-box; /** позволит добавить padding */
-    padding: 1rem;
-    
-
+    width: 80%;
 }
 
 .button__transparent {
-    margin-top: 77px;
-    margin-left: 277px;
-    margin-bottom: 107px;
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-bottom: 10%;
 }
-
 /* section contact us  end */
-
 
 .footer-info {
     display: none;
