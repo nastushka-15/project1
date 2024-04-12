@@ -80,37 +80,15 @@ color:  #333333;
 }
 
 .gallery__h1 {
-
-width: 277.76px;
-height: 64px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 300;
-font-size: 64px;
-line-height: 64px;
-color: #BDBDBD;
-
-flex: none;
-order: 0;
-flex-grow: 0;
-
+    font-family: "RobotoLight", sans-serif;
+    font-weight: 300;
+    font-size: 64px;
+    color: #BDBDBD;
 } 
 .gallery__h2 {
-    
-width: 203px;
-height: 64px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 64px;
-line-height: 64px;
-color: #333333;
-flex: none;
-order: 1;
-flex-grow: 0;
-
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 64px;
 }
 .gallery__img {
     display: grid;
