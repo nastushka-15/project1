@@ -93,9 +93,6 @@ color:  #333333;
     font-weight: 700;
     font-size: 64px;
     /* padding-bottom: 15px; */
-    
-    
-    
 }
 
 .image__pic {
@@ -387,52 +384,29 @@ justify-content: space-between;
 
 /*Адаптивность*/
 /*Адаптивность для планшета начало*/
-@media screen and (max-width: 768px)
-{
+@media screen and (min-width: 427px) and (max-width: 768px){
 .header__logo {
-    grid-column: 1/2;
-    grid-row: 2;
     width: 8vw;
-    height: auto;
-    
-}
-.header__main{
-    grid-column: 4/5;
-    grid-row: 2;
-    font-size: 0.5rem;
-}
-.header__gallery {
-    grid-column: 5/6;
-    grid-row: 2;
-    font-size: 0.5rem;
-}
-.header__projects {
-    grid-column: 6/7;
-    grid-row: 2;
-    font-size: 0.5rem;
-}
-.header__certifications {
-    grid-column: 7/8;
-    grid-row: 2;
-    font-size: 0.5rem;
-}
-.header__contacts {
-    grid-column: 8/9;
-    grid-row: 2;
-    font-size: 0.5rem;
-}
-.header__link {
-    text-decoration: none;
-    color:  #333333;
-    font-size: 0.5rem;
-}
-.header__link :visited {
-color:  #333333;
-font-size: 0.5rem;
+    height: auto;  
 }
 
-.header__link:hover {
-    text-decoration: underline overline;
+.header__main {
+    font-size: 0.5rem;
+}
+
+.header__gallery {
+    font-size: 0.5rem;
+}
+
+.header__projects {
+    font-size: 0.5rem;
+}
+
+.header__certifications {
+    font-size: 0.5rem;
+}
+
+.header__contacts {
     font-size: 0.5rem;
 }
 
@@ -440,23 +414,19 @@ font-size: 0.5rem;
 /* section project lorum start */
 
 .caption__title {
-    font-family: "RobotoLight", sans-serif;
     font-size: 3rem;
-    text-transform: uppercase;
-    color: #BDBDBD;
     margin-left: 10%;
 }
 
 .caption__titleTwo {
-    font-family: "Roboto", sans-serif;
     font-size: 3rem;
     margin-left: 10%;
 }
 
 .image__pic {
-        width: 80%;
+        width: 100%;
         height: auto;
-        padding-top: 30px;
+        padding-top: 10%;
         padding-left: 50px;
 }
 
@@ -464,36 +434,29 @@ font-size: 0.5rem;
     
     width: 20vw;
     height: 10vh;
-    border: none;
-    background-color: white;
-    font-family: "Roboto";
-    font-weight: 300;
     font-size: 0.7rem;
-    text-transform: uppercase;
     position: relative;
     top: -1rem;
     left: 17rem;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    background-color: white;
 }
 
 /* кнопка на картинке */
 .image {
     position: relative;
     width: 770px;
-
 }
-
 
 .caption {
     display: flex;
     flex-direction: column;
-    
+    padding-top: 10%;
+    padding-left: 20%;
+    margin-left: 0%; 
 }
 
 .section {
     display: flex;
+    box-sizing: border-box;
     justify-content: space-around;
 }
 /* section project lorum end */
@@ -501,200 +464,138 @@ font-size: 0.5rem;
 
 
 /* section about start */
+.section-about__content {
+    width:100%;
+    height: 40%;
+    padding-left: 1%;
+    padding-top: 1%;
+    margin-left: 0;
+    margin-top: 1%;  
+}
 
+.section-about__photo-img {
+    margin: 1%;
+    width: 100%;
+}
 
-
+.section-about__articles-title {
+    font-size: 3rem;
+    padding-left: 10%;
+}
 /* section about end */
 
 /* section main focus start */
 .main-focus__title {
-    font-family: "RobotoLight", sans-serif;
-    font-size: 64px;
-    font-weight: 300;
-    color: #BDBDBD;
-    padding-top: 100px;
-    padding-left: 200px;
+    font-size: 3rem;
+    padding-top: 1%;
+    padding-left: 10%;
 }
 
 .main-focus__content {
-    display: flex;
-    margin: 0 80px;
-    width: 75%;
-    
+display: flex;
+flex-direction: column;
+margin: 0;
+width: 100%;
 }
 
 .main-focus__item-title {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-size: 200px;
-    color: #BDBDBD;
-    padding-left: 135px;
-    
-}
-
-.main-focus__item {
-    display: flex;
+font-size: 3rem;
+padding-left: 1%;
+align-self: center;
 }
 
 .main-focus__item-description {
-    font-family: "RobotoRegular", sans-serif;
-    font-size: 20px;
-    padding-top: 50px;
-    padding-left: 30px;
+font-size: 1rem;
+padding-top: 0%;
+padding-left: 1%;
 }
 /* section main focus end */
 
 /* /* section our projects start */
 .project__title {
-    font-family: "RobotoLight", sans-serif;
-    font-size: 64px;
-    font-weight: 300;
-    color: #BDBDBD;
-    padding-left: 200px;
-    padding-top: 50px;
+    font-size: 3rem;
+    padding-left: 10%;
+    padding-top: 1%;
 
 }
 
 .project__content {
-    display: flex;
-    flex-direction: column;
+    box-sizing: border-box;
+    width: 100%;
     align-items: center;
-    gap: 30px;
-    
+    gap: 10px;
 }
 
 .project__content-group1 {
-    display: flex;
-    gap: 30px;
+    gap: 10px;
 }
 
 .project__content-group2 {
     display: flex;
-    gap: 30px;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    height: auto;
+    gap: 10px;
 }
 
-.project__content-group1 .project__content-group2{
-display: flex;
-justify-content: space-between;
-
+.project__content-img {
+    width: min-content;
 }
 
 .project__button {
-    width: 200px;
-    height: 60px;
-    border: none;
-    color: white;
-    font-family: "RobotoLight";
-    font-weight: 300;
-    font-size: 12px;
-    text-transform: uppercase;
-    background-color: #2C2C2C;
-    
+    width: 150px;
+    margin-left: 10%;
 }
 
 .project__content-group3 {
     display: flex;
-    justify-content: right;
-    margin-right: 304px;
-    margin-top: 30px;
+    justify-content:left;
+    margin-top: 10px;
 }
-
 /* section our projects  end */
 
 /* section contact us start */
 .contacts__title {
-    font-family: "RobotoLight", sans-serif;
-    font-size: 64px;
-    font-weight: 300;
-    color: #BDBDBD;
-    padding-left: 277px;
-    padding-top: 50px;
-
+    font-size: 3rem;
+    padding-left: 10%;
+    padding-top: 1%;
 }
 
 .contacts__image-img {
-    width: 800px;
-    height: 420px;
+    display: none;
 }
 
 .contacts__block {
     display: flex;
     flex-flow: row-reverse;
-    justify-content: center;
-    gap: 30px;
+    justify-content:flex-end;
+    background-image: url(/assets/images/image_12.png);
+    background-repeat: no-repeat;
+    width: 100%;
 }
 
+.form {
+    height: 100%;
+}
 
 .form__input {
-    width: 391px;
-    height: 46px;
-    margin: 10px;
-    background-color: #f3f3f3;
-    border: none;
-    font-family: "RobotoRegular", sans-serif;
-    font-size: 14px;
-    color: #8D8D8D;
-    box-sizing: border-box; /** позволит добавить padding */
-    padding: 1rem;
+    width: 80%;
 }
 
 .form__textarea {
-    width: 391px;
-    height: 146px;
-    margin: 10px;
-    background-color: #f3f3f3;
-    border: none;
-    font-family: "RobotoRegular", sans-serif;
-    font-size: 14px;
-    color: #8D8D8D;
-    box-sizing: border-box; /** позволит добавить padding */
-    padding: 1rem;
-    
-
+    width: 80%;
+    height: 46px;
 }
 
 .button__transparent {
-    margin-top: 77px;
-    margin-left: 277px;
-    margin-bottom: 107px;
+    margin-top: 1%;
+    margin-left: 10%;
+    margin-bottom: 1%;
 }
-
+}
 /* section contact us  end */
-
-/* footer start */
-.footer {
-    background-color: #2C2C2C;
-    padding: 2%;
-}
-
-.footer-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr) 2fr;
-    justify-items: center;
-    color: white;
-    font-family: "RobotoRegular", sans-serif;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 171%;
-    letter-spacing: 0.03em;
-}
-
-.footer-info__title, .footer-contacts__title, .footer-social__title {
-    font-weight: 700;
-    font-size: 16px;
-}
-
-.footer__column {
-    list-style-type: none;
-}
-
-.footer__author {
-    display: flex;
-    justify-content: center ;
-    color:rgb(200, 200, 200, 0.5);
-}  }
-/* footer end */
-
 /*Адаптивность для планшета конец*/
 
 @media screen  and (max-width: 426px){
