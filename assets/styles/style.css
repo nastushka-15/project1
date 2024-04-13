@@ -496,6 +496,8 @@ padding-left: 1%;
 .project__content-group1 {
     box-sizing: border-box;
     gap: 10px;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .project__content-group2 {
