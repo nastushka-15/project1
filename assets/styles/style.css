@@ -77,9 +77,18 @@ color:  #333333;
     text-decoration: underline overline;
 }
 
-
 /* section project lorum start */
+.section {
+    display: flex;
+    justify-content: space-around;
 
+}
+.caption {
+    display: flex;
+    flex-direction: column;
+    padding-top: 200px;
+    margin-left: 135px; 
+}
 .caption__title {
     font-family: "RobotoLight", sans-serif;
     font-weight: 300;
@@ -92,19 +101,19 @@ color:  #333333;
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 64px;
-    /* padding-bottom: 15px; */
 }
 
-.image__pic {
-    width: 80%;
-    height: auto;
-    padding-top: 30px;
-    padding-left: 50px;
-
+.image { /* контейнер с кнопкой */
+    display: flex;
+    width: 770px;
+    height: 829px;
+    background-image: url(/assets/images/Rectangle_6.png);
+    background-repeat: no-repeat;
+    justify-content: flex-start;
+    align-items: flex-end;
 }
 
-.image__button {
-    
+.image__button { /* кнопка*/
     width: 200px;
     height: 60px;
     border: none;
@@ -113,39 +122,10 @@ color:  #333333;
     font-weight: 300;
     font-size: 12px;
     text-transform: uppercase;
-    position: absolute;
-    top: 41.5rem;
-    left: 9rem;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
     background-color: white;
-}
-
-/* кнопка на картинке */
-.image {
-    position: relative;
-    width: 770px;
-
-}
-
-
-.image__button-img {
-    margin-bottom: -8px;
-}
-
-.caption {
     display: flex;
-    flex-direction: column;
-    padding-top: 200px;
-    margin-left: 135px;
-    
-    
-}
-
-.section {
-    display: flex;
-    justify-content: space-around;
-
+    justify-content: center;
+    align-items: center;
 }
 /* section project lorum end */
 
@@ -182,6 +162,8 @@ color:  #333333;
 }
 
 .section-about__articles-button {
+    display: flex;
+    align-items: center;
     width: 200px;
     height: 60px;
     border: none;
@@ -267,6 +249,8 @@ justify-content: space-between;
 }
 
 .project__button {
+    display: flex;
+    align-items: center;
     width: 200px;
     height: 60px;
     border: none;
@@ -416,49 +400,32 @@ justify-content: space-between;
 .caption__title {
     font-size: 3rem;
     margin-left: 10%;
+    padding: 2%;
 }
 
 .caption__titleTwo {
     font-size: 3rem;
     margin-left: 10%;
+    padding: 2%;
 }
 
-.image__pic {
-        width: 100%;
-        height: auto;
-        padding-top: 10%;
-        padding-left: 50px;
-}
-
-.image__button {
-    
-    width: 20vw;
-    height: 10vh;
-    font-size: 0.7rem;
-    position: relative;
-    top: -1rem;
-    left: 17rem;
-}
-
-/* кнопка на картинке */
-.image {
-    position: relative;
-    width: 770px;
-}
 
 .caption {
     display: flex;
     flex-direction: column;
     padding-top: 10%;
-    padding-left: 20%;
-    margin-left: 0%; 
+    margin-left: 10%; 
+    margin-right: 10%;
+    margin-top: 10%;
+    margin-bottom: 10%;
 }
 
-.section {
+.image { /* контейнер с кнопкой */
     display: flex;
-    box-sizing: border-box;
-    justify-content: space-around;
+    height: auto;
+    background-size: 100%;
 }
+
 /* section project lorum end */
 
 
@@ -527,6 +494,7 @@ padding-left: 1%;
 }
 
 .project__content-group1 {
+    box-sizing: border-box;
     gap: 10px;
 }
 
@@ -688,6 +656,7 @@ padding-left: 1%;
 
 /* section project lorum start */
 .section {
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
 }
@@ -705,20 +674,14 @@ padding-left: 1%;
 }
 
 .image {
-    position: static;
+    box-sizing: border-box;
     width: 100%;
-}
-
-.image__pic {
-    width: 100%;
-    padding-top: 0px;
-    padding-left:0px;
+    height: 50vh;
 }
 
 .image__button {
-    top: 25.5rem;
-    left: 6rem;
-    }
+    margin-top: 1%;
+}
 /* section project lorum end */
 
 /* section about start */
